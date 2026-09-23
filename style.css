@@ -423,6 +423,61 @@ header .navbar ul li a:hover{
 }
 /* skills section ends */
 
+/* testimonial section starts */
+.testimonial{
+  background: #e5ecfb;
+  min-height: auto;
+  padding: 5rem 9% 3rem;
+}
+.testimonial .box-container{
+  display: flex;
+  justify-content: center;
+}
+.testimonial .box-container .box{
+  max-width: 70rem;
+  border-radius: .5rem;
+  box-shadow: .2rem .5rem 1rem rgba(0, 0, 0, .2);
+  background: rgb(252, 252, 252);
+  padding: 3rem;
+  position: relative;
+}
+.testimonial .quote-icon{
+  font-size: 2.5rem;
+  color: #3a18d2;
+  opacity: .5;
+}
+.testimonial .quote-text{
+  font-size: 1.5rem;
+  line-height: 1.9;
+  color: #333;
+  font-style: italic;
+  margin-top: 1rem;
+}
+.testimonial .author{
+  margin-top: 2rem;
+  border-top: .1rem solid #ddd;
+  padding-top: 1.5rem;
+}
+.testimonial .author h4{
+  font-size: 1.8rem;
+  color: #062e74;
+}
+.testimonial .author span{
+  display: block;
+  font-size: 1.3rem;
+  color: #666;
+  margin-top: .3rem;
+}
+.testimonial .author .role{
+  font-size: 1.2rem;
+  margin-top: .5rem;
+}
+@media (max-width: 450px){
+  .testimonial .box-container .box{ padding: 2rem; }
+  .testimonial .quote-text{ font-size: 1.4rem; }
+}
+/* testimonial section ends */
+
 /* education section starts */
 .education{
   background: #e5ecfb;
